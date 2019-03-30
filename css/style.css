@@ -565,7 +565,42 @@ section.puente-ciego-b {
     background: url('../img/puenteciegoB.jpg');
     background-size: cover;
 }
-
+section.puente-conocimiento-a {
+    width: 100%;
+    height: 100%;
+    background: url('../img/puentes/puente-conocimiento-a.jpg');
+    background-size: cover;
+}
+section.puente-conocimiento-b {
+    width: 100%;
+    height: 100%;
+    background: url('../img/puentes/puente-conocimiento-b.jpg');
+    background-size: cover;
+}
+section.puente-del-astuto-a {
+    width: 100%;
+    height: 100%;
+    background: url('../img/puentes/puente-del-astuto-a.jpg');
+    background-size: cover;
+}
+section.puente-del-astuto-b {
+    width: 100%;
+    height: 100%;
+    background: url('../img/puentes/puente-del-astuto-b.jpg');
+    background-size: cover;
+}
+section.pantalla-ganadores {
+    width: 100%;
+    height: 100%;
+    background: url('../img/pantalla-ganadores.jpg');
+    background-size: cover;
+}
+section.entrega-cueva {
+    width: 100%;
+    height: 100%;
+    background: url('../img/entrega-cueva.jpg');
+    background-size: cover;
+}
 /*  cofres    */
 section.cuatro-cofres {
     width: 100%;
@@ -874,91 +909,84 @@ z-index: 9;
         width: 100%;
         height: calc(100% - 110px);
     }
-}
+    
+    section.puente-conocimiento-a {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-puente-conocimiento-a {
+        background: url('../img/puentes/puente-conocimiento-a-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }  
+    section.puente-conocimiento-b {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-puente-conocimiento-b {
+        background: url('../img/puentes/puente-conocimiento-b-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }
+    section.puente-del-astuto-a {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-puente-del-astuto-a {
+        background: url('../img/puentes/puente-del-astuto-a-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }  
+    section.puente-del-astuto-b {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-puente-del-astuto-b {
+        background: url('../img/puentes/puente-del-astuto-b-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }
+    section.pantalla-ganadores {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-pantalla-ganadores {
+        background: url('../img/pantalla-ganadores-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }    
+    section.entrega-cueva {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-entrega-cueva {
+        background: url('../img/entrega-cueva-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }
 
-
-
-/*
-.mercader-etapas .content-area {
-    max-width: 800px;
-    width: 100%;
-    background: #e3e3e3;
-    margin: auto;
 }
-.border-top-black {
-    border-top: 4px solid #000;
-}
-.border-top-grey {
-    border-top: 4px solid #aeaeae;
-}
-.text-align-center {
-    text-align: center;
-}
-.etapa-title {
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.etapa-title span{
-    background: #aeaeae;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding: 4px 10px;
-
-}
-.etapa-subtitle {
-    padding: 10px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.bg-yellow {
-    background: #EBFA95;
-    padding: 6px 10px;
-    font-size: 13px;
-}
-.bg-yellow .fa-lightbulb-o {
-    font-size: 16px;
-}
-.mercader-etapas .text-area {
-    padding-left: 12px;
-    padding-right: 12px;
-    font-size: 13px;
-}
-.text-green {
-    color: #9DAD7B;
-    font-weight: 600;
-}
-p.mb-0 {
-    margin-bottom: 0;
-}
-p.mb-1 {
-    margin-bottom: 1rem;
-}
-p.dib {    
-    display: inline-block;
-}
-.float-left {
-    float: left;
-}
-.fa-file-text-o {
-    float: left;
-    margin-right: 1rem;
-}
-.div-btn-next {
-    max-width: 800px;
-    width: 100%;
-    background: #e3e3e3;
-    margin: auto;
-    margin-top: 20px;
-    z-index: 1;
-    position: relative;
-}
-.btn-next {
-    border: 4px solid #aeaeae;
-    background: #fff;
-    color: #B9C870;
-    font-weight: 600;
-    font-size: 16px;
-    padding: .5rem 2rem;
-    margin-right: 100px;
-}
-*/
