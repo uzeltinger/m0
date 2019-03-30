@@ -1,0 +1,16 @@
+.footer-background {
+    margin-bottom: 40px;
+}
+section.sala .footer .links .link a {
+    color: #96B025;
+}
+.sala-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 150px;
+}
+.sala-menu img{
+    max-width: 100%;
+    float: right;
+}

@@ -1,0 +1,62 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+section.login {
+    width: 100%;
+    height: 100%;
+    background: url('../img/login1920x1440.jpg');
+    background-size: cover;
+}
+.noppading {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-login {
+    position: relative;
+    display: inline-block;
+    height: calc(100% - (134px));
+    width: 100%;
+    text-align: center;
+}
+.container-login .container-form {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 84%;
+    /*height: calc(80% - 40px);*/
+    height: 450px;
+    margin: auto;
+    margin-top: 40px;
+}
+.container-login .container-form .form{
+    padding: 30px 50px 20px 50px;
+    
+}
+.container-login .container-form .form p{
+    font-size: 1.2rem;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0;
+}
+.separar-parrafo {
+    height: 15px;
+    width: 100%;
+}
+.container-login .container-form .form form {
+    max-width: 570px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.container-login .container-form .form form .btn {    
+    font-weight: 600;
+}
+.container-login .container-form .form form .md-form label {
+    color: #222;
+}
+.container-login .container-form .form h5 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.login .container-header-white .logo-container {
+    text-align: center;
+}
