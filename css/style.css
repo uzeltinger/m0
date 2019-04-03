@@ -626,11 +626,40 @@ section.cofre-oro {
     background: url('../img/cofres/cofre-oro.jpg');
     background-size: cover;
 }
-
 section.cofre-platino {
     width: 100%;
     height: 100%;
     background: url('../img/cofres/cofre-platino.jpg');
+    background-size: cover;
+}
+section.salida-crater {
+    width: 100%;
+    height: 100%;
+    background: url('../img/salida-crater.jpg');
+    background-size: cover;
+}
+section.sala-reto-luz-1 {
+    width: 100%;
+    height: 100%;
+    background: url('../img/salas/sala-reto-luz-1.jpg');
+    background-size: cover;
+}
+section.sala-reto-luz-2 {
+    width: 100%;
+    height: 100%;
+    background: url('../img/salas/sala-reto-luz-2.jpg');
+    background-size: cover;
+}
+section.sala-reto-luz-3 {
+    width: 100%;
+    height: 100%;
+    background: url('../img/salas/sala-reto-luz-3.jpg');
+    background-size: cover;
+}
+section.sala-reto-luz-4 {
+    width: 100%;
+    height: 100%;
+    background: url('../img/salas/sala-reto-luz-4.jpg');
     background-size: cover;
 }
 .font-size-13 {
@@ -987,6 +1016,70 @@ z-index: 9;
         background-position-y: top;
         width: 100%;
         height: calc(100% - 110px);
+    }    
+    section.salida-crater {
+        width: 100%;
+        height: 100%;
+        background: none;
     }
-
+    .container-backround-salida-crater {
+        background: url('../img/salida-crater-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }   
+    section.sala-reto-luz-1 {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-sala-reto-luz-1 {
+        background: url('../img/salas/sala-reto-luz-1-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }  
+    section.sala-reto-luz-2 {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-sala-reto-luz-2 {
+        background: url('../img/salas/sala-reto-luz-2-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }  
+    section.sala-reto-luz-3 {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-sala-reto-luz-3 {
+        background: url('../img/salas/sala-reto-luz-3-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }  
+    section.sala-reto-luz-4 {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    .container-backround-sala-reto-luz-4 {
+        background: url('../img/salas/sala-reto-luz-4-1280.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        width: 100%;
+        height: calc(100% - 110px);
+    }
 }
